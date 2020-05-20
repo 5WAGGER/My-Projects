@@ -1,2 +1,1 @@
-# ItzGreat
-Just sum 14 year old's repository 
+Hey what's up world!
