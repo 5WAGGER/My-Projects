@@ -1,5 +1,3 @@
-import time
-
 while True:
 
     try:
@@ -83,5 +81,3 @@ while True:
         print("Invalid input...")
     except:
         print("Unknown error...")
-        
-time.sleep(10)
