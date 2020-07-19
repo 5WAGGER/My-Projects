@@ -1,4 +1,4 @@
-
+import time
 
 def lbs_to_kg(weight):
     return weight * 0.45
@@ -13,3 +13,4 @@ for number in users_numbers:
     if number > max:
         max = number
 
+time.sleep(10)
