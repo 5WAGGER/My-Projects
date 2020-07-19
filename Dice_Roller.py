@@ -1,5 +1,5 @@
 import random
-
+import time
 user_input = input("Do you want each dice different or the same? (yes/no): ")
 
 if user_input == "yes":
@@ -79,3 +79,5 @@ elif user_input == "no":
 
 else:
     print("Invalid input")
+
+time.sleep(10)    
