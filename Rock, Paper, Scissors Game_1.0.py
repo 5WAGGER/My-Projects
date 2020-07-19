@@ -1,5 +1,5 @@
 import random
-
+import time
 game_is_playing = True
 
 print("Welcome to Rock, Paper, Scissors Game!")
@@ -119,6 +119,5 @@ elif users_score < bots_score:
 else:
     print("You have tied with the robot.")
 
-
-
+time.sleep(10)
 
