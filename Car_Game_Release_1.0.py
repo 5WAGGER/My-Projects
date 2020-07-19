@@ -1,3 +1,4 @@
+import time
 def car_game(user_command):
     print("You have started the car game.")
     print("Type 'Help' for help.")
@@ -197,3 +198,5 @@ def car_game(user_command):
 user_command = input("> ").lower()
 
 car_game(user_command)
+
+time.sleep(10)
