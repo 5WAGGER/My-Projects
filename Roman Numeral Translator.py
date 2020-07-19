@@ -76,6 +76,7 @@ while True:
 
         if not above_1000 and not is_zero:
             print("Your roman numeral is "+roman_numeral+".")
+            time.sleep(10)
             break
 
     except UnboundLocalError:
